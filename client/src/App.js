@@ -8,6 +8,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Sprint Challenge-Advance React</h1>
+        <h3>Players with the most Google Searches</h3>
+        <br />
         <Home />
       </header>
     </div>

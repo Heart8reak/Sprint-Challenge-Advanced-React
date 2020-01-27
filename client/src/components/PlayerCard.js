@@ -18,7 +18,7 @@ const PlayerCard = props => {
 
       <Card>
         <CardHeader
-          body
+          body="true"
           inverse
           style={{ backgroundColor: '#333', borderColor: '#333' }}
           tag="h3"
