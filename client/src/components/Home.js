@@ -24,7 +24,12 @@ class Home extends React.Component {
     return (
       <div>
         {this.state.listPlayers.map(item => (
-          <PlayerCard key={item.id} />
+          <PlayerCard
+            key={item.id}
+            name={item.name}
+            country={item.country}
+            searches={item.searches}
+          />
         ))}
       </div>
     );
