@@ -17,12 +17,7 @@ const PlayerCard = props => {
       {props.searches} */}
 
       <Card>
-        <CardHeader
-          body="true"
-          inverse
-          style={{ backgroundColor: '#333', borderColor: '#333' }}
-          tag="h3"
-        >
+        <CardHeader className="text-muted" tag="h3">
           {props.name}
         </CardHeader>
         <CardBody>
