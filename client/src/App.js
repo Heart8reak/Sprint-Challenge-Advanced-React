@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Advance React</h1>
+        <h1>Sprint Challenge-Advance React</h1>
         <Home />
       </header>
     </div>
