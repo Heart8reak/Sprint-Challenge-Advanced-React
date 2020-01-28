@@ -1,14 +1,14 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 
 import Home from './components/Home';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <h1>Sprint Challenge-Advance React</h1> */}
-        <h2>Woman's World Cup with the most Google Searches</h2>
+        <Navbar />
         <br />
         <Home />
       </header>
